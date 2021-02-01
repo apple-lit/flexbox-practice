@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: beige;
+}
+
+h1 {
+  padding: 30px;
+}
+
+#big {
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(255, 227, 244);
+
+  /* flexbox使いますよ〜宣言 */
+  display: flex;
+
+
+  /* 横方向にどうするか */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: left; */
+
+  /* 縦方向にどうするか */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+}
+
+
+
+#small-left {
+  margin-top: 50px;
+  width: 70vw;
+  height: 20vh;
+  background-color: rgb(179, 243, 245);
+
+  /* flexbox使いますよ〜宣言 */
+  display: flex;
+
+  /* 横方向にどうするか */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: left; */
+
+  /* 縦方向にどうするか */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+}
+
+#small-right {
+  margin: 50px 0 0 auto;
+  width: 70vw;
+  height: 20vh;
+  background-color: rgb(185, 245, 179);
+
+  /* flexbox使いますよ〜宣言 */
+  display: flex;
+
+  /* 横方向にどうするか */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: left; */
+
+  /* 縦方向にどうするか */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: rgb(255, 108, 199);
+}
